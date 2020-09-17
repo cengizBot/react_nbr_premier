@@ -4,7 +4,7 @@ import { computeIfIsPrime } from '../../../services/computeIfIsPrime';
 import './IsPrime.css';
 
 IsPrime.propTypes = {
-  number: PropTypes.number,
+  number: PropTypes.number
 };
 function IsPrime({ number }) {
   /**

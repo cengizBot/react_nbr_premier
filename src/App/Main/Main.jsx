@@ -15,7 +15,10 @@ function Main() {
       <p>Entrez un nombre...</p>
       <NumberInput setNumber={setNumber} />
       <IsPrime number={number} />
-      <EventChange number={number} />
+      <div>
+        <p>Vos dernières recherches</p>
+        <EventChange number={number} />
+      </div>
     </main>
   );
 }
