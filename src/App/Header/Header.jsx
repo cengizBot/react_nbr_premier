@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="Header">
-      <h1>Super Calculateur de nombre premier test !</h1>
+      <h1>Super Calculateur de nombre premier</h1>
     </header>
   );
 }
