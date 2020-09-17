@@ -4,7 +4,7 @@ import './NumberInput.css';
 
 NumberInput.propTypes = {
   number: PropTypes.number,
-  setNumber: PropTypes.func,
+  setNumber: PropTypes.func
 };
 function NumberInput({ setNumber }) {
   /**

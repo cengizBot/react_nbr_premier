@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NumberInput from './NumberInput/NumberInput';
 import IsPrime from './IsPrime/IsPrime';
+import EventChange from './EventChange/EventChange';
 import './Main.css';
 
 function Main() {
@@ -14,6 +15,10 @@ function Main() {
       <p>Entrez un nombre...</p>
       <NumberInput setNumber={setNumber} />
       <IsPrime number={number} />
+      <div>
+        <p>Vos dernières recherches</p>
+        <EventChange number={number} />
+      </div>
     </main>
   );
 }
